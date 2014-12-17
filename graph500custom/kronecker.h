@@ -1,15 +1,14 @@
-/*
- * kronecker.h
- *
- *  Created on: Nov 22, 2014
- *      Author: cowmoo
- */
+#ifndef __KRONECKER_H_INCLUDED__
+#define __KRONECKER_H_INCLUDED__
 
-#ifndef KRONECKER_H_
-#define KRONECKER_H_
+#include <iostream>
+#include <Eigen/Sparse>
+#include <cstdlib>
+#include <random>
+#include <chrono>
+#include <vector>
 
+typedef Eigen::Triplet<int> EigenTriplet;
+void kronecker(int scale, int edgefactor, std::vector<EigenTriplet> &edgelist);
 
-
-
-
-#endif /* KRONECKER_H_ */
+#endif // __KRONECKER_H_INCLUDED__
