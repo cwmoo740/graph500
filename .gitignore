@@ -2,6 +2,7 @@
 .project
 credentials.csv
 *.pem
+*.ppk
 graph500reference/.settings/
 
 # Compiled Object files
